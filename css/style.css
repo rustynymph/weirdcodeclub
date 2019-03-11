@@ -1,0 +1,48 @@
+body {
+    background-color: #8342f4; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #8342f4 10%, #30d19b, #abd12e); 
+}
+
+@font-face {
+    font-family: "Mortified Drip";
+    src: url("./fonts/mortifieddrip/MortifiedDrip.ttf");
+    src: 
+    url("./fonts/mortifieddrip/MortifiedDrip.woff") format("woff"),
+    url("./fonts/mortifieddrip/MortifiedDrip.otf") format("opentype"),
+    url("./fonts/mortifieddrip/MortifiedDrip.eot") format("eot"),
+    url("./fonts/mortifieddrip/MortifiedDrip.svg") format("svg");
+}
+
+@font-face {
+        font-family: "Fipps";
+        src: url("./fonts/fipps/Fipps-Regular.ttf");
+        src: 
+        url("./fonts/fipps/Fipps-Regular.woff") format("woff"),
+        url("./fonts/fipps/Fipps-Regular.otf") format("opentype"),
+        url("./fonts/fipps/Fipps-Regular.eot") format("eot"),
+        url("./fonts/fipps/Fipps-Regular.svg") format("svg");
+ }
+
+ .weirdh1 {
+    font-family: 'Mortified Drip', Arial, sans-serif;
+    display:inline;
+    font-size: 5.5rem;
+ }
+
+ .codeh1 {
+    font-family: 'Fipps', Arial, sans-serif;
+    display:inline;
+    font-size: 3.2rem;
+ }
+
+ .weirdh4 {
+    font-family: 'Mortified Drip', Arial, sans-serif;
+    display:inline;
+    font-size: 2.5rem;
+ }
+
+ .codeh4 {
+    font-family: 'Fipps', Arial, sans-serif;
+    display:inline;
+    font-size: 1.25rem;
+ }
