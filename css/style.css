@@ -1,3 +1,11 @@
+.jumbotron {
+    background-color: #222222;  
+}
+
+p {
+    color: #cccccc;
+}
+
 body {
     background-color: #8342f4; /* For browsers that do not support gradients */
     background-image: linear-gradient(to right, #8342f4 10%, #30d19b, #abd12e); 
@@ -24,25 +32,76 @@ body {
  }
 
  .weirdh1 {
+    color: #cccccc;
     font-family: 'Mortified Drip', Arial, sans-serif;
     display:inline;
     font-size: 5.5rem;
+    -webkit-animation-name: headeranimation; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: headeranimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
  }
 
  .codeh1 {
+    color: #cccccc;
     font-family: 'Fipps', Arial, sans-serif;
     display:inline;
     font-size: 3.2rem;
+    -webkit-animation-name: headeranimation; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: headeranimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;    
  }
 
  .weirdh4 {
+    color: #cccccc;
     font-family: 'Mortified Drip', Arial, sans-serif;
     display:inline;
     font-size: 2.5rem;
  }
 
  .codeh4 {
+    color: #cccccc;
     font-family: 'Fipps', Arial, sans-serif;
     display:inline;
     font-size: 1.25rem;
  }
+
+ ol { 
+    counter-reset: item; 
+    color: #cccccc;
+ }
+ li{ display: block }
+ li:before { content: counters(item, ".") " "; counter-increment: item }
+
+ .card {
+     background-color: #222222;
+ }
+
+.py-5 {
+    background-color: #222222 !important;
+ }
+
+ nav {
+    background-color: #222222;
+ }
+
+ /* Safari 4.0 - 8.0 */
+@-webkit-keyframes headeranimation {
+    0% {color: #8342f4;}
+    25% {color: #30d19b;}
+    50% {color: #abd12e;}
+    75% {color: #30d19b;}
+    100% {color: #8342f4;}
+}
+  
+/* Standard syntax */
+@keyframes headeranimation {
+    0% {color: #8342f4;}
+    25% {color: #30d19b;}
+    50% {color: #abd12e;}
+    75% {color: #30d19b;}
+    100% {color: #8342f4;}
+}
