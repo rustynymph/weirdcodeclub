@@ -2,6 +2,16 @@
     background-color: #222222;  
 }
 
+.navbar-brand {
+    font-family: 'Mortified Drip', Arial, sans-serif;
+    font-size: 1.8rem;
+}
+
+.nav-link {
+    font-family: 'Fipps', Arial, sans-serif;
+    font-size: 0.9rem;
+}
+
 p {
     color: #cccccc;
 }
