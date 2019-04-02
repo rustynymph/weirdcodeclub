@@ -50,11 +50,6 @@ body {
     font-family: 'Mortified Drip', Arial, sans-serif;
     display:inline;
     font-size: 5.5rem;
-    -webkit-animation-name: headeranimation; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: headeranimation;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
  }
 
  .codeh1 {
