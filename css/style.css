@@ -23,26 +23,26 @@ body {
 
 @font-face {
     font-family: "Mortified Drip";
-    src: url("./fonts/mortifieddrip/MortifiedDrip.ttf");
+    src: url("/fonts/mortifieddrip/MortifiedDrip.ttf");
     src: 
-        url("./fonts/mortifieddrip/MortifiedDrip.ttf") format('truetype'),
-        url("./fonts/mortifieddrip/MortifiedDrip.woff") format("woff"),
-        url("./fonts/mortifieddrip/MortifiedDrip.woff2") format("woff2"),
-        url("./fonts/mortifieddrip/MortifiedDrip.otf") format("opentype"),
-        url("./fonts/mortifieddrip/MortifiedDrip.eot") format("eot"),
-        url("./fonts/mortifieddrip/MortifiedDrip.svg") format("svg");
+        url("/fonts/mortifieddrip/MortifiedDrip.ttf") format('truetype'),
+        url("/fonts/mortifieddrip/MortifiedDrip.woff") format("woff"),
+        url("/fonts/mortifieddrip/MortifiedDrip.woff2") format("woff2"),
+        url("/fonts/mortifieddrip/MortifiedDrip.otf") format("opentype"),
+        url("/fonts/mortifieddrip/MortifiedDrip.eot") format("eot"),
+        url("/fonts/mortifieddrip/MortifiedDrip.svg") format("svg");
 }
 
 @font-face {
     font-family: "Fipps";
-    src: url("./fonts/fipps/Fipps-Regular.ttf");
+    src: url("/fonts/fipps/Fipps-Regular.ttf");
         src: 
-        url("./fonts/fipps/Fipps-Regular.ttf") format('truetype'),
-        url("./fonts/fipps/Fipps-Regular.woff") format("woff"),
-        url("./fonts/fipps/Fipps-Regular.woff2") format("woff2"),
-        url("./fonts/fipps/Fipps-Regular.otf") format("opentype"),
-        url("./fonts/fipps/Fipps-Regular.eot") format("eot"),
-        url("./fonts/fipps/Fipps-Regular.svg") format("svg");
+        url("/fonts/fipps/Fipps-Regular.ttf") format('truetype'),
+        url("/fonts/fipps/Fipps-Regular.woff") format("woff"),
+        url("/fonts/fipps/Fipps-Regular.woff2") format("woff2"),
+        url("/fonts/fipps/Fipps-Regular.otf") format("opentype"),
+        url("/fonts/fipps/Fipps-Regular.eot") format("eot"),
+        url("/fonts/fipps/Fipps-Regular.svg") format("svg");
  }
 
  .weirdh1 {
