@@ -78,6 +78,13 @@ body {
     font-size: 1.25rem;
  }
 
+ .codesubh4 {
+    color: #cccccc;
+    font-family: 'Fipps', Arial, sans-serif;
+    display:inline;
+    font-size: 1.0rem;
+ }
+
  ol { 
     counter-reset: item; 
     color: #cccccc;
