@@ -1,1 +1,156 @@
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_1aDfCt9a20r5" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Weird Code Club</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="/css/heroic-features.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
+  <script src="/mousetrails.js"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Weird Code Club</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/learn/">Learn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/gallery/">Look</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact/">Contact</a>
+          </li>          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Jumbotron Header -->
+    <header class="jumbotron my-4" style="padding-bottom: 1%; padding-top: 2%;">
+      <center>
+        <p class="weirdh1" style="color: #ffffff; font-size: 2.5rem;">Getting started with the micro:bit</p> 
+      </center>
+      <p class="lead">This tutorial will talk about the micro:bit, how to write your first program for it, and how to run that program on the micro:bit.</p>
+    </header>
+
+    <!-- Page Features -->
+    <div class="row text-center">
+
+        <div class="col-lg-12 col-md-12 mb-12" style="padding-bottom: 1%;">
+            <div class="card h-100">
+              <!--<img class="card-img-top" src="http://placehold.it/500x325" alt="">-->
+              <div class="card-body">
+                <h4 class="card-title codeh4" style="color: #4286f4;">1. What is the micro:bit?</h4>
+                <p class="card-text">The micro:bit is a small, programmable, microcontroller designed for use in computer science education. Basically,
+                    it's a piece of hardware that you can write your own code for. It comes with several built-in sensors, such as a temperature sensor, a light sensor, an accelerometer, and more.
+                    The data from these sensors can easily be accessed by the code you write, which allows you to create powerful interactive systems.
+                
+                </p>
+              </div>
+            </div>
+          </div>
+
+      <div class="col-lg-12 col-md-12 mb-12" style="padding-bottom: 1%;">
+        <div class="card h-100">
+          <!--<img class="card-img-top" src="http://placehold.it/500x325" alt="">-->
+          <div class="card-body">
+            <h4 class="card-title codeh4" style="color: #8342f4;">2. Writing your first micro:bit program</h4>
+            <p class="card-text">Below you can see a little window with some example micro:bit code. You'll notice that the code is written using <i>blocks</i>
+            as opposed to traditional text-based programs you may be used to seeing. You can program the micro:bit using both kinds of programs, but in these tutorials we will 
+            mostly focus on the "blocks-based" way. Now, click the upper right <i class="far fa-edit"></i> icon to open this code example in a new window. 
+            </p>
+            <center>
+                <iframe style="position:relative;width:50%;height:250px;" src="https://makecode.microbit.org/#pub:_1aDfCt9a20r5" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe>
+            </center>
+            <br>
+            <p class="card-text">
+            You are now using what is called the <i>MakeCode</i> editor which is one of several applications you can use to write micro:bit programs.
+            You'll notice this example program only has two blocks: <i>on start</i> and <i>show icon</i>. Notice how the <i>show icon</i> block is nested
+            inside of the <i>on start</i> block. The <i>on start</i> block allows you to do something on your micro:bit as soon as it turns on. In other words,
+            when this program runs on the micro:bit we will see a giraffe appear on the LED screen.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12 col-md-12 mb-12" style="padding-bottom: 1%;">
+        <div class="card h-100">
+          <!--<img class="card-img-top" src="http://placehold.it/500x325" alt="">-->
+          <div class="card-body">
+            <h4 class="card-title codeh4" style="color: #2fb8d1;">3. Saving your code to your computer</h4>
+            <p class="card-text">When we write code for the micro:bit we end up with a file that has a <b>.hex</b> extension. This is 
+            just the filetype that the micro:bit expects. So, now that we have finished writing code using the online MakeCode editor, we need to 
+        save that <b>.hex</b> file. You can do this by clicking either the download <i class="fas fa-download"></i> or save <i class="far fa-save"></i> 
+     button. Either works. Now you'll have a file named something like <b>microbit-showiconexample.hex</b> in your computer's Downloads folder. The next
+    step will explain how to get this file onto the actual micro:bit device itself.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12 col-md-12 mb-12" style="padding-bottom: 1%;">
+        <div class="card h-100">
+          <!--<img class="card-img-top" src="http://placehold.it/500x325" alt="">-->
+          <div class="card-body">
+            <h4 class="card-title codeh4" style="color: #30d19b;">3. Running your code on the micro:bit</h4>
+            <p class="card-text">In order to transfer the hex file to your micro:bit you will have to connect your micro:bit to your computer using 
+                a microUSB cable. It will show up on your computer as if you just inserted a flash drive. Now, just drag the hex file you downloaded in step 3 
+            and drag it onto the micro:bit. You should see a little yellow LED flashing to indicate that the program is being loaded onto the micro:bit. When that 
+        finishes you will see a giraffe show up on the LED screen!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <br>
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5">
+    <div class="container">
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
